@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Website Screenshot Grabber</title>
+</head>
+<body>
+  <form id="screenshotForm">
+    <input type="text" id="url" placeholder="Enter website URL" required>
+    <input type="number" id="delay" placeholder="Delay time (seconds)" required>
+    <input type="number" id="width" placeholder="Width (px)" required>
+    <input type="number" id="height" placeholder="Height (px)" required>
+    <button type="submit">Take Screenshot</button>
+  </form>
+  <img id="screenshotImage" src="" alt="Screenshot will appear here" hidden>
+  <script src="app.js"></script>
+</body>
+</html>
